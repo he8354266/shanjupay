@@ -1,0 +1,3 @@
+com\shanjupay\uua\api\ClientDetailsService.class
+com\shanjupay\uua\api\dto\MerchantLoginDTO.class
+com\shanjupay\uua\api\OauthClientDetailsService.class
