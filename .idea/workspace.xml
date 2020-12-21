@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/shanjupay-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-merchant-application/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-merchant/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-mercha/shanjupay-merchant-service/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-uaa/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-uaa/shanjupay-uaa-api/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-uaa/shanjupay-uaa-service/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-user/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-user/shanjupay-user-api/target/" />
+    <ignored path="$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="35571420">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="18" />
+          <entry key="java" value="129" />
+          <entry key="xml" value="27" />
+          <entry key="yml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="18" />
+          <entry key="JAVA" value="129" />
+          <entry key="XML" value="27" />
+          <entry key="YAML" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="java" value="10271" />
+          <entry key="xml" value="56" />
+          <entry key="yml" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10271" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="56" />
+          <entry key="YAML" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/service/PayChannelServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/StaffDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-api/src/main/java/com/shanjupay/user/api/TenantService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/java/com/shanjupay/user/service/TenantServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-809">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-uaa/shanjupay-uaa-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/java/com/shanjupay/gateway/GatewayBootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/RedisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>okhttp</find>
+      <find>应用</find>
+      <find>E_300010</find>
+      <find>queryPayChannelParamByAppAndPlatform</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="F:" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/config/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/MerchantDTO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/MerchantApplicationBootstrap.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/shanjupay/merchant/RestTemplateTest.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/vo/MerchantRegisterVO.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/entity/Merchant.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/convert/MerchantConvert.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/convert/MerchantRegisterConvert.java" />
+        <option value="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/BusinessException.java" />
+        <option value="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/RestErrorResponse.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/common/intercept/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/service/SmsService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/service/SmsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-common/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/service/FileService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/QiniuUtils.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/service/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/vo/MerchantDetailVO.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/shanjupay/merchant/TokenTemp.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/common/util/LoginUser.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/convert/MerchantDetailConvert.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/MerchantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/MerchantService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/AppService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/convert/AppCovert.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/AppService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/AppServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/mapper/PlatformPayChannelMapper.java" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/test/java/com/shanjupay/transaction/TestPayChannelService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/mapper/PlatformChannelMapper.java" />
+        <option value="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/src/main/java/com/shanjupay/transaction/api/PayChannelService.java" />
+        <option value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/PlatformParamController.java" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/service/PayChannelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-uaa/shanjupay-uaa-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/java/com/shanjupay/user/service/TenantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shanjupay-user/shanjupay-user-api/src/main/java/com/shanjupay/user/api/TenantService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.3.9-bin" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shanjupay-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shanjupay-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="merchant" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-merchant-application" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shanjupay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shanjupay" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577925847541" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shanjupay-user" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.186014" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shanjupay.merchant.convert" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\teach\shanjupay\model2\code\shanjupay\shanjupay-transaction\shanjupay-transaction-service\src\main\java\com\shanjupay\transaction\common\util" />
+      <recent name="F:\teach\shanjupay\model2\code\shanjupay\shanjupay-common\src\main\java\com\shanjupay\common\util" />
+      <recent name="F:\teach\shanjupay\model2\code\shanjupay\shanjupay-merchant-application\src\main\java\com\shanjupay\merchant\common\util" />
+      <recent name="F:\teach\shanjupay\model2\code\shanjupay\shanjupay-merchant-application\src\test\java\com\shanjupay\merchant" />
+      <recent name="F:\teach\shanjupay\model2\code\shanjupay\shanjupay-common\src\main\java\com\shanjupay\common\domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UAABootstrap">
+    <configuration name="QiniuUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.common.util.QiniuUtils" />
+      <module name="shanjupay-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPayChannelService.testqueryPayChannelByPlatformChannel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-transaction-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanjupay.transaction" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.transaction.TestPayChannelService" />
+      <option name="METHOD_NAME" value="testqueryPayChannelByPlatformChannel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTemp.createTestToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-merchant-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanjupay.merchant" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.merchant.TokenTemp" />
+      <option name="METHOD_NAME" value="createTestToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shanjupay-gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.gateway.GatewayBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-merchant-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.merchant.MerchantApplicationBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-merchant-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.merchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.merchant.MerchantBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shanjupay-transaction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.transaction.TransactionBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UAABootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shanjupay-uaa-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.uaa.UAABootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shanjupay-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.user.UserBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GatewayBootstrap" />
+      <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+      <item itemvalue="Spring Boot.MerchantBootstrap" />
+      <item itemvalue="Application.QiniuUtils" />
+      <item itemvalue="JUnit.TokenTemp.createTestToken" />
+      <item itemvalue="Spring Boot.TransactionBootstrap" />
+      <item itemvalue="JUnit.TestPayChannelService.testqueryPayChannelByPlatformChannel" />
+      <item itemvalue="Spring Boot.UserBootstrap" />
+      <item itemvalue="Spring Boot.UAABootstrap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+        <item itemvalue="JUnit.TestPayChannelService.testqueryPayChannelByPlatformChannel" />
+        <item itemvalue="Spring Boot.MerchantBootstrap" />
+        <item itemvalue="JUnit.TokenTemp.createTestToken" />
+        <item itemvalue="Application.QiniuUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="" />
+      <created>1571122367193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571122367193</updated>
+      <workItem from="1571122368559" duration="2074000" />
+      <workItem from="1571187766500" duration="1006000" />
+      <workItem from="1574317695353" duration="577000" />
+      <workItem from="1574318311412" duration="682000" />
+      <workItem from="1574404354823" duration="998000" />
+      <workItem from="1575159261400" duration="7131000" />
+      <workItem from="1575257365783" duration="596000" />
+      <workItem from="1575427654027" duration="1967000" />
+      <workItem from="1575462754133" duration="132000" />
+      <workItem from="1575513442706" duration="673000" />
+      <workItem from="1575597051388" duration="811000" />
+      <workItem from="1575944194251" duration="19000" />
+      <workItem from="1575945153860" duration="2193000" />
+      <workItem from="1576027729001" duration="2469000" />
+      <workItem from="1576143580930" duration="197000" />
+      <workItem from="1576205193006" duration="2000" />
+      <workItem from="1576477189794" duration="21000" />
+      <workItem from="1576477218244" duration="3000" />
+      <workItem from="1576653093681" duration="9000" />
+      <workItem from="1577368490115" duration="340000" />
+      <workItem from="1577369164668" duration="907000" />
+      <workItem from="1577514064457" duration="13000" />
+      <workItem from="1577523451161" duration="54438000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RestTemplateTest_gethtml - 2019.12.28 at 19h 58m 30s.xml">
+      <configuration name="RestTemplateTest.gethtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_gethtml - 2019.12.28 at 20h 01m 22s.xml">
+      <configuration name="RestTemplateTest.gethtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_gethtml - 2019.12.28 at 20h 02m 33s.xml">
+      <configuration name="RestTemplateTest.gethtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_getSmsCode - 2019.12.28 at 20h 26m 27s.xml">
+      <configuration name="RestTemplateTest.getSmsCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_getSmsCode - 2019.12.28 at 20h 27m 47s.xml">
+      <configuration name="RestTemplateTest.getSmsCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_getSmsCode - 2019.12.28 at 20h 29m 10s.xml">
+      <configuration name="RestTemplateTest.getSmsCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_getSmsCode - 2019.12.28 at 20h 29m 46s.xml">
+      <configuration name="RestTemplateTest.getSmsCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTemp_createTestToken - 2019.12.30 at 16h 17m 41s.xml">
+      <configuration name="TokenTemp.createTestToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TokenTemp_createTestToken - 2019.12.30 at 16h 32m 31s.xml">
+      <configuration name="TokenTemp.createTestToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPayChannelService_testqueryPayChannelByPlatformChannel - 2019.12.31 at 12h 04m 30s.xml">
+      <configuration name="TestPayChannelService.testqueryPayChannelByPlatformChannel" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77258000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16109422" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48758864" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.17198582" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.12411348" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.4858156" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299712" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.13905776" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/common/util/SecurityUtil.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/test/java/com/shanjupay/transaction/TestPayChannelService.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/service/PayChannelServiceImpl.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/convert/MerchantRegisterConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/convert/MerchantDetailConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="114" column="37" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/MerchantDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/MerchantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="102" column="33" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/MerchantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/convert/AppCovert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/AppService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/AppServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="224" column="32" lean-forward="true" selection-start-line="224" selection-start-column="32" selection-end-line="224" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantDetailConvertImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/config/SwaggerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/TransactionBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar!/org/mapstruct/factory/Mappers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/convert/PlatformChannelConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/convert/OrderResultConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="98" selection-start-line="98" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/mapper/PlatformPayChannelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/shanjupay/merchant/RestTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/src/main/java/com/shanjupay/transaction/api/dto/PayChannelDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/mapper/PlatformChannelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/test/java/com/shanjupay/transaction/TestPayChannelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="3" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/src/main/java/com/shanjupay/transaction/api/dto/PayChannelParamDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/PlatformParamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="91" column="43" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-api/src/main/java/com/shanjupay/transaction/api/PayChannelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/RedisEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/common/util/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-transaction/shanjupay-transaction-service/src/main/java/com/shanjupay/transaction/service/PayChannelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-uaa/shanjupay-uaa-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/java/com/shanjupay/gateway/GatewayBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/java/com/shanjupay/gateway/config/JWTConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-809">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-gateway/shanjupay-gateway-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/StaffDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-service/src/main/java/com/shanjupay/user/service/TenantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shanjupay-user/shanjupay-user-api/src/main/java/com/shanjupay/user/api/TenantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shanjupay-user-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.186014" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.47</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

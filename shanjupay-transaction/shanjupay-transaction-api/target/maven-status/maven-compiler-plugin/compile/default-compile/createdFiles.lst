@@ -1,0 +1,6 @@
+com\shanjupay\transaction\api\dto\PlatformChannelDTO.class
+com\shanjupay\transaction\api\PayChannelService.class
+com\shanjupay\transaction\api\dto\OrderResultDTO.class
+com\shanjupay\transaction\api\dto\PayChannelDTO.class
+com\shanjupay\transaction\api\dto\PayChannelParamDTO.class
+com\shanjupay\transaction\api\dto\PayOrderDTO.class
