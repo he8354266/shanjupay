@@ -61,7 +61,7 @@ public class QRCodeUtil {
 				/**
 				 * 原生转码前面没有 data:image/png;base64 这些字段，返回给前端是无法被解析，所以加上前缀
 				 */
-				resultImage = new String("data:image/png;base64," + EncryptUtil.encodeBase64(os.toByteArray()));
+				resultImage  = new String("data:image/png;base64," + EncryptUtil.encodeBase64(os.toByteArray()));
 				return resultImage;
 			} catch (Exception e) {
 				e.printStackTrace();
