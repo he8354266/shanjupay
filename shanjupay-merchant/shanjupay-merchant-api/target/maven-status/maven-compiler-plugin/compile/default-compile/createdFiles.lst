@@ -1,0 +1,7 @@
+com\shanjupay\merchant\api\MerchantService.class
+com\shanjupay\merchant\api\dto\StaffDTO.class
+com\shanjupay\merchant\api\dto\StoreStaffDTO.class
+com\shanjupay\merchant\api\dto\StoreDTO.class
+com\shanjupay\merchant\api\AppService.class
+com\shanjupay\merchant\api\dto\MerchantDTO.class
+com\shanjupay\merchant\api\dto\AppDTO.class

@@ -78,7 +78,7 @@ public class QRCodeUtil {
 
 	public static void main(String[] args) throws IOException {
 		QRCodeUtil qrCodeUtil = new QRCodeUtil();
-		String qrCode = qrCodeUtil.createQRCode("http://www.itcast.cn", 200, 200);
+		String qrCode = qrCodeUtil.createQRCode("http://192.168.1.113:56010/transaction/getWXOAuth2Code", 200, 200);
 		System.out.println(qrCode);
 	}
 

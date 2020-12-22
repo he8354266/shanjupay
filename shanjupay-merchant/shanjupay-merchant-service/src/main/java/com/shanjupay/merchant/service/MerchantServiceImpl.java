@@ -2,8 +2,11 @@ package com.shanjupay.merchant.service;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.shanjupay.common.domain.BusinessException;
 import com.shanjupay.common.domain.CommonErrorCode;
+import com.shanjupay.common.domain.PageVO;
 import com.shanjupay.common.util.PhoneUtil;
 import com.shanjupay.merchant.api.MerchantService;
 import com.shanjupay.merchant.api.dto.MerchantDTO;
@@ -11,7 +14,7 @@ import com.shanjupay.merchant.api.dto.StaffDTO;
 import com.shanjupay.merchant.api.dto.StoreDTO;
 import com.shanjupay.merchant.convert.MerchantConvert;
 import com.shanjupay.merchant.convert.StaffConvert;
-import com.shanjupay.merchant.convert.StoreConvert;
+//import com.shanjupay.merchant.convert.StoreConvert;
 import com.shanjupay.merchant.entity.Merchant;
 import com.shanjupay.merchant.entity.Staff;
 import com.shanjupay.merchant.entity.Store;
@@ -26,8 +29,12 @@ import com.shanjupay.user.api.dto.tenant.TenantDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 
@@ -174,10 +181,11 @@ public class MerchantServiceImpl implements MerchantService {
 
     @Override
     public StoreDTO createStore(StoreDTO storeDTO) throws BusinessException {
-        Store store = StoreConvert.INSTANCE.dto2entity(storeDTO);
-        log.info("商户下新增门店" + JSON.toJSONString(store));
-        storeMapper.insert(store);
-        return StoreConvert.INSTANCE.entity2dto(store);
+//        Store store = StoreConvert.INSTANCE.dto2entity(storeDTO);
+//        log.info("商户下新增门店" + JSON.toJSONString(store));
+//        storeMapper.insert(store);
+//        return StoreConvert.INSTANCE.entity2dto(store);
+        return null;
     }
 
     @Override
@@ -230,5 +238,35 @@ public class MerchantServiceImpl implements MerchantService {
     public MerchantDTO queryMerchantByTenantId(Long tenantId) {
         Merchant merchant = merchantMapper.selectOne(new LambdaQueryWrapper<Merchant>().eq(Merchant::getTenantId, tenantId));
         return MerchantConvert.INSTANCE.entity2dto(merchant);
+    }
+
+    @Override
+    public PageVO<StoreDTO> queryStoreByPage(StoreDTO storeDTO, Integer pageNo, Integer pageSize) {
+        //分页条件
+        Page<Store> page = new Page<>(pageNo, pageSize);
+        //查询条件拼装
+        LambdaQueryWrapper<Store> lambdaQueryWrapper = new LambdaQueryWrapper<Store>();
+        //如果 传入商户id，此时要拼装 查询条件
+        if (storeDTO != null && storeDTO.getMerchantId() != null) {
+            lambdaQueryWrapper.eq(Store::getMerchantId, storeDTO.getMerchantId());
+        }
+        //再拼装其它查询条件 ，比如：门店名称
+        if (storeDTO != null && StringUtils.isNotEmpty(storeDTO.getStoreName())) {
+            lambdaQueryWrapper.eq(Store::getStoreName, storeDTO.getStoreName());
+        }
+
+        //分页查询数据库
+        IPage<Store> storeIPage = storeMapper.selectPage(page, lambdaQueryWrapper);
+        //查询列表
+        List<Store> records = storeIPage.getRecords();
+        List<StoreDTO> storeDTOS = new ArrayList<>();
+        for (Store store : records) {
+            BeanUtils.copyProperties(store, storeDTO);
+            storeDTOS.add(storeDTO);
+        }
+
+        //将包含entity的list转成包含dto的list
+//        List<StoreDTO> storeDTOS = StoreConvert.INSTANCE.listentity2dto(records);
+        return new PageVO(storeDTOS, storeIPage.getTotal(), pageNo, pageSize);
     }
 }
