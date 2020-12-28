@@ -1,6 +1,7 @@
 com\shanjupay\common\util\AmountUtil.class
 com\shanjupay\common\util\EncryptUtil.class
 com\shanjupay\common\util\QRCodeUtil.class
+com\shanjupay\common\util\IdWorkerUtils.class
 com\shanjupay\common\domain\RestErrorResponse.class
 com\shanjupay\common\util\MapStringConvertUtil.class
 com\shanjupay\common\util\MD5Util.class
@@ -20,6 +21,7 @@ com\shanjupay\common\util\StringUtil.class
 com\shanjupay\common\util\JsonUtil.class
 com\shanjupay\common\domain\BusinessException.class
 com\shanjupay\common\domain\CommonErrorCode.class
+com\shanjupay\common\util\PaymentUtil.class
 com\shanjupay\common\util\PhoneUtil.class
 com\shanjupay\common\util\IPUtil.class
 com\shanjupay\common\util\RandomUuidUtil.class

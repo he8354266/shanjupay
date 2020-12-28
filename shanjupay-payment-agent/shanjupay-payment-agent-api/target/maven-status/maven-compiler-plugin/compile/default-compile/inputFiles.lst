@@ -1,0 +1,14 @@
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBean.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\OrderDTO.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeStatus.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBean.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\GoodsDetail.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\AliConfigParam.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\conf\WXConfigParam.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\TradeCreateResponse.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\AlipayBCScanBean.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentBillDTO.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\CommonPayStatusDTO.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\PayChannelAgentService.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\PaymentResponseDTO.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-payment-agent\shanjupay-payment-agent-api\src\main\java\com\shanjupay\paymentagent\api\dto\WeChatBeanScan.java

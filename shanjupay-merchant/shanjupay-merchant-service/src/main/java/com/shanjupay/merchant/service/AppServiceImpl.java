@@ -28,6 +28,7 @@ public class AppServiceImpl implements AppService {
 
     @Autowired
     MerchantMapper merchantMapper;
+
     /**
      * 创建应用
      *
@@ -39,17 +40,17 @@ public class AppServiceImpl implements AppService {
     @Override
     public AppDTO createApp(Long merchantId, AppDTO appDTO) throws BusinessException {
 
-        if(merchantId==null || appDTO== null || StringUtils.isBlank(appDTO.getAppName())){
+        if (merchantId == null || appDTO == null || StringUtils.isBlank(appDTO.getAppName())) {
             throw new BusinessException(CommonErrorCode.E_300009);
         }
         //  1）校验商户是否通过资质审核
         Merchant merchant = merchantMapper.selectById(merchantId);
-        if(merchant == null){
+        if (merchant == null) {
             throw new BusinessException(CommonErrorCode.E_200002);
         }
         //取出商户资质申请状态
         String auditStatus = merchant.getAuditStatus();
-        if(!"2".equals(auditStatus)){
+        if (!"2".equals(auditStatus)) {
             throw new BusinessException(CommonErrorCode.E_200003);
         }
 
@@ -57,7 +58,7 @@ public class AppServiceImpl implements AppService {
         //传入的应用名称
         String appName = appDTO.getAppName();
         Boolean existAppName = isExistAppName(appName);
-        if (existAppName){
+        if (existAppName) {
             throw new BusinessException(CommonErrorCode.E_200004);
         }
 
@@ -100,9 +101,17 @@ public class AppServiceImpl implements AppService {
         return AppCovert.INSTANCE.entity2dto(app);
     }
 
+    @Override
+    public Boolean queryAppInMerchant(String appId, Long merchantId) {
+        Integer count = appMapper.selectCount(new LambdaQueryWrapper<App>().eq(App::getAppId, appId)
+                .eq(App::getMerchantId, merchantId));
+
+        return count > 0;
+    }
+
     //判断应用名称是否存在
-    private Boolean isExistAppName(String appName){
+    private Boolean isExistAppName(String appName) {
         Integer count = appMapper.selectCount(new LambdaQueryWrapper<App>().eq(App::getAppName, appName));
-        return count >0;
+        return count > 0;
     }
 }

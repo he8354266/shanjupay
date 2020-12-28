@@ -2,5 +2,7 @@ D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付
 D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\PayChannelService.java
 D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\dto\PayChannelParamDTO.java
 D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\dto\PayChannelDTO.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\TransactionService.java
+D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\dto\QRCodeDto.java
 D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\dto\OrderResultDTO.java
 D:\11111\进修课资料\09.基于微服务构建闪聚支付项目\day05 支付渠道参数配置 Redis\代码\shanjupay\shanjupay\shanjupay-transaction\shanjupay-transaction-api\src\main\java\com\shanjupay\transaction\api\dto\PayOrderDTO.java

@@ -42,6 +42,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
     <orderEntry type="module" module-name="shanjupay-transaction-api" />
+    <orderEntry type="module" module-name="shanjupay-payment-agent-api" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-spring-boot-starter:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-spring-boot-autoconfigure:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-spring:1.9.6" level="project" />

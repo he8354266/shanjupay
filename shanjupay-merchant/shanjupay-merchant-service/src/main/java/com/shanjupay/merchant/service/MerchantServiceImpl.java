@@ -29,6 +29,7 @@ import com.shanjupay.user.api.dto.tenant.TenantDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -41,7 +42,7 @@ import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 /**
  * Created by Administrator.
  */
-@org.apache.dubbo.config.annotation.Service
+@Service
 @Slf4j
 public class MerchantServiceImpl implements MerchantService {
 
@@ -268,5 +269,12 @@ public class MerchantServiceImpl implements MerchantService {
         //将包含entity的list转成包含dto的list
 //        List<StoreDTO> storeDTOS = StoreConvert.INSTANCE.listentity2dto(records);
         return new PageVO(storeDTOS, storeIPage.getTotal(), pageNo, pageSize);
+    }
+
+    @Override
+    public Boolean queryStoreInMerchant(Long storeId, Long merchantId) {
+        Integer count = storeMapper.selectCount(new LambdaQueryWrapper<Store>().eq(Store::getId, storeId)
+                .eq(Store::getMerchantId, merchantId));
+        return count > 0;
     }
 }

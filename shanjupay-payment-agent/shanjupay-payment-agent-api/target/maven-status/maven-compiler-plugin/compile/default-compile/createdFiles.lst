@@ -1,0 +1,15 @@
+com\shanjupay\paymentagent\api\conf\WXConfigParam.class
+com\shanjupay\paymentagent\api\dto\WeChatBean.class
+com\shanjupay\paymentagent\api\dto\TradeCreateResponse.class
+com\shanjupay\paymentagent\api\dto\PaymentResponseDTO.class
+com\shanjupay\paymentagent\api\dto\PaymentResponseDTO$1.class
+com\shanjupay\paymentagent\api\dto\OrderDTO.class
+com\shanjupay\paymentagent\api\PayChannelAgentService.class
+com\shanjupay\paymentagent\api\dto\PaymentBillDTO.class
+com\shanjupay\paymentagent\api\dto\WeChatBeanScan.class
+com\shanjupay\paymentagent\api\conf\AliConfigParam.class
+com\shanjupay\paymentagent\api\dto\AlipayBean.class
+com\shanjupay\paymentagent\api\dto\AlipayBCScanBean.class
+com\shanjupay\paymentagent\api\dto\GoodsDetail.class
+com\shanjupay\paymentagent\api\dto\CommonPayStatusDTO.class
+com\shanjupay\paymentagent\api\dto\TradeStatus.class
