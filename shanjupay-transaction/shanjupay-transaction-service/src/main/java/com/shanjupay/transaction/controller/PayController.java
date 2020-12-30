@@ -13,14 +13,14 @@ import com.shanjupay.transaction.api.TransactionService;
 import com.shanjupay.transaction.api.dto.PayOrderDTO;
 import com.shanjupay.transaction.convert.PayOrderConvert;
 import com.shanjupay.transaction.vo.OrderConfirmVO;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -97,4 +97,15 @@ public class PayController {
         response.getWriter().close();
     }
 
+    @ApiOperation("微信授权码回调")
+    @GetMapping("/wx-oauth-code-return")
+
+    public String wxOAuth2CodeReturn(@RequestParam String code, @RequestParam String state) {
+        String jsonString = EncryptUtil.decodeUTF8StringBase64(state);
+        PayOrderDTO payOrderDTO = JSON.parseObject(jsonString, PayOrderDTO.class);
+        //闪聚平台的应用id
+        String appId = payOrderDTO.getAppId();
+        //接收到code授权码，申请openid
+        String openId = transactionService.getWXOAuthOpenId()
+    }
 }

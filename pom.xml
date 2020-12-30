@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>shanjupay-common</module>
+        <module>test-rocketmq</module>
     </modules>
 
     <parent>

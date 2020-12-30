@@ -2,6 +2,7 @@ package com.shanjupay.transaction.service;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.shanjupay.common.domain.BusinessException;
 import com.shanjupay.common.domain.CommonErrorCode;
 import com.shanjupay.common.util.AmountUtil;
@@ -11,8 +12,10 @@ import com.shanjupay.merchant.api.AppService;
 import com.shanjupay.merchant.api.MerchantService;
 import com.shanjupay.paymentagent.api.PayChannelAgentService;
 import com.shanjupay.paymentagent.api.conf.AliConfigParam;
+import com.shanjupay.paymentagent.api.conf.WXConfigParam;
 import com.shanjupay.paymentagent.api.dto.AlipayBean;
 import com.shanjupay.paymentagent.api.dto.PaymentResponseDTO;
+import com.shanjupay.paymentagent.api.dto.WeChatBean;
 import com.shanjupay.transaction.api.PayChannelService;
 import com.shanjupay.transaction.api.TransactionService;
 import com.shanjupay.transaction.api.dto.PayChannelParamDTO;
@@ -22,13 +25,20 @@ import com.shanjupay.transaction.convert.PayOrderConvert;
 import com.shanjupay.transaction.entity.PayOrder;
 import com.shanjupay.transaction.mapper.PayOrderMapper;
 import lombok.extern.slf4j.Slf4j;
+
+
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
+
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
+import java.util.Map;
 
 /**
  * @Title: project
@@ -40,6 +50,12 @@ import java.time.temporal.ChronoUnit;
 public class TransactionServiceImpl implements TransactionService {
     @Value("${shanjupay.payurl}")
     private String payurl;
+    @Value("${weixin.oauth2RequestUrl}")
+    private String oauth2RequestUrl;
+    @Value("${weixin.oauth2CodeReturnUrl}")
+    private String oauth2CodeReturnUrl;
+    @Value("${weixin.oauth2Token}")
+    private String oauth2Token;
     @Reference
     private AppService appService;
     @Reference
@@ -118,6 +134,93 @@ public class TransactionServiceImpl implements TransactionService {
     public PayOrderDTO queryPayOrder(String tradeNo) {
         PayOrder payOrder = payOrderMapper.selectOne(new LambdaQueryWrapper<PayOrder>().eq(PayOrder::getTradeNo, tradeNo));
         return PayOrderConvert.INSTANCE.entity2dto(payOrder);
+    }
+
+    @Override
+    public void updateOrderTradeNoAndTradeState(String tradeNo, String payChannelTradeNo, String state) throws BusinessException {
+        LambdaUpdateWrapper<PayOrder> payOrderLambdaUpdateWrapper = new LambdaUpdateWrapper<>();
+        payOrderLambdaUpdateWrapper.eq(PayOrder::getTradeNo, tradeNo);
+        payOrderLambdaUpdateWrapper.set(PayOrder::getTradeState, state);
+        payOrderLambdaUpdateWrapper.set(PayOrder::getPayChannelTradeNo, payChannelTradeNo);
+        if (state != null && state.equals("2")) {
+            payOrderLambdaUpdateWrapper.set(PayOrder::getPaySuccessTime, LocalDateTime.now());
+        }
+        payOrderMapper.update(null, payOrderLambdaUpdateWrapper);
+    }
+
+    @Override
+    public String getWXOAuth2Code(PayOrderDTO payOrderDTO) {
+        //闪聚平台的应用id
+        String appId = payOrderDTO.getAppId();
+        //获取微信支付渠道参数
+        PayChannelParamDTO payChannelParamDTO = payChannelService.queryParamByAppPlatformAndPayChannel(payOrderDTO.getAppId(), "payOrderDTO", "ALIPAY_WAP");
+        String paramJson = payChannelParamDTO.getParam();
+        //微信支付渠道参数
+        WXConfigParam wxConfigParam = JSON.parseObject(paramJson, WXConfigParam.class);
+
+        String jsonString = JSON.toJSONString(payOrderDTO);
+        String state = EncryptUtil.encodeUTF8StringBase64(jsonString);
+
+        try {
+            String url = String.format("%s?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_base&state=%s#wechat_redirect",
+                    oauth2RequestUrl, wxConfigParam.getAppId(), oauth2CodeReturnUrl, state);
+            return "redirect:" + url;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "forward:/pay-page-error";
+    }
+
+    @Override
+    public String getWXOAuthOpenId(String code, String appId) {
+        //获取微信支付渠道参数
+        PayChannelParamDTO payChannelParamDTO = payChannelService.queryParamByAppPlatformAndPayChannel(appId, "shanju_c2b", "WX_JSAPI");
+        String param = payChannelParamDTO.getParam();
+        //微信支付渠道参数
+        WXConfigParam wxConfigParam = JSON.parseObject(param, WXConfigParam.class);
+        String url = String.format("%s?appid=%s&secret=%s&code=%s&grant_type=authorization_code",
+                oauth2Token, wxConfigParam.getAppId(), wxConfigParam.getAppSecret(), code);
+        //申请openid，请求url
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<String> exchange = restTemplate.exchange(url, HttpMethod.GET, null, String.class);
+        //申请openid接口响应的内容，其中包括了openid
+        String body = exchange.getBody();
+        log.info("申请openid响应的内容:{}", body);
+        String openid = JSON.parseObject(body).getString("openid");
+        return openid;
+
+
+    }
+
+    @Override
+    public Map<String, String> submitOrderByWechat(PayOrderDTO payOrderDTO) throws BusinessException {
+        String openId = payOrderDTO.getOpenId();
+        //支付渠道
+        payOrderDTO.setChannel("WX_JSAPI");
+        //保存订单到闪聚平台数据库
+        PayOrderDTO save = save(payOrderDTO);
+        //调用支付渠道代理服务，调用微信下单接口
+        return weChatJsapi(openId, save.getTradeNo());
+    }
+
+    private Map<String, String> weChatJsapi(String openId, String tradeNo) {
+        //查询订单
+        PayOrderDTO payOrderDTO = queryPayOrder(tradeNo);
+        WeChatBean weChatBean = new WeChatBean();
+        weChatBean.setOpenId(openId);
+        weChatBean.setOutTradeNo(payOrderDTO.getTradeNo());
+        weChatBean.setTotalFee(payOrderDTO.getTotalAmount());
+        weChatBean.setSpbillCreateIp(payOrderDTO.getClientIp());
+        weChatBean.setBody(payOrderDTO.getBody());
+        weChatBean.setNotifyUrl("none");
+        String appId = payOrderDTO.getAppId();
+        //支付渠道配置参数，从数据库查询
+        PayChannelParamDTO payChannelParamDTO = payChannelService.queryParamByAppPlatformAndPayChannel(appId, "shanju_c2b", "WX_JSAPI");
+        String paramJson = payChannelParamDTO.getParam();
+
+        WXConfigParam wxConfigParam = JSON.parseObject(paramJson, WXConfigParam.class);
+        Map<String, String> payOrderByWeChatJSAPI = payChannelAgentService.createPayOrderByWeChatJSAPI(wxConfigParam, weChatBean);
+        return payOrderByWeChatJSAPI;
     }
 
     private PayOrderDTO save(PayOrderDTO payOrderDTO) {

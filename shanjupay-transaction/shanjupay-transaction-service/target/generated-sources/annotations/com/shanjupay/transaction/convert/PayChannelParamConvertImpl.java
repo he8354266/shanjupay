@@ -8,7 +8,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-12-24T11:26:28+0800",
+    date = "2020-12-28T15:44:39+0800",
     comments = "version: 1.3.0.Final, compiler: javac, environment: Java 1.8.0_251 (Oracle Corporation)"
 )
 public class PayChannelParamConvertImpl implements PayChannelParamConvert {
